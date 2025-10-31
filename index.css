@@ -1,0 +1,50 @@
+/* App.css */
+
+/* 전체 앱 컨테이너 스타일 */
+.app-container {
+  @apply bg-gray-900 text-gray-100 font-sans flex flex-col min-h-screen;
+}
+
+/* 헤더 섹션 스타일 */
+.app-header {
+  @apply container mx-auto px-4 py-8 sm:py-12 text-center;
+}
+
+.header-title {
+  @apply text-4xl sm:text-5xl font-extrabold tracking-tight text-white mb-2;
+}
+
+.header-description {
+  @apply text-lg text-gray-400 max-w-2xl mx-auto;
+}
+
+/* '새 프로젝트 추가' 버튼 스타일 */
+.add-project-button {
+  @apply mt-6 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white;
+  @apply bg-cyan-600 hover:bg-cyan-700;
+  @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-cyan-500;
+  @apply transition-colors;
+}
+
+/* 메인 콘텐츠 영역 스타일 */
+.main-content {
+  @apply flex-grow container mx-auto px-4 pb-8 sm:pb-12;
+}
+
+/* 프로젝트 카드 그리드 스타일 */
+.projects-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+/* 푸터 섹션 스타일 */
+.app-footer {
+  @apply text-center py-6 mt-auto border-t border-gray-700;
+}
+
+.footer-copyright {
+  @apply text-gray-500 mb-2;
+}
+
+.footer-address {
+  @apply text-gray-500;
+}
