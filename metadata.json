@@ -1,0 +1,5 @@
+{
+  "name": "Gemini 단어 퀴즈",
+  "description": "Gemini API를 사용하여 동적으로 생성된 단어 퀴즈를 풀어보세요. 정의를 보고 올바른 단어를 맞춰 점수를 획득하는 재미있는 앱입니다.",
+  "requestFramePermissions": []
+}
